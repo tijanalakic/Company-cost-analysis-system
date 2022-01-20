@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-04-16T15:05:13</date>
+  <millis>1523883913792</millis>
+  <sequence>26</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>41</thread>
+  <message>Obrisan fajl ID osluskivaca: 23</message>
+</record>
+<record>
+  <date>2018-04-16T15:05:13</date>
+  <millis>1523883913811</millis>
+  <sequence>27</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>38</thread>
+  <message>Obrisan fajl ID osluskivaca: 20</message>
+</record>
+<record>
+  <date>2018-04-16T15:05:13</date>
+  <millis>1523883913820</millis>
+  <sequence>28</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>42</thread>
+  <message>Obrisan fajl ID osluskivaca: 24</message>
+</record>
+<record>
+  <date>2018-04-16T15:05:13</date>
+  <millis>1523883913825</millis>
+  <sequence>29</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Obrisan fajl ID osluskivaca: 21</message>
+</record>
+<record>
+  <date>2018-04-16T15:05:13</date>
+  <millis>1523883913854</millis>
+  <sequence>30</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>40</thread>
+  <message>Obrisan fajl ID osluskivaca: 22</message>
+</record>
+<record>
+  <date>2018-04-16T15:05:20</date>
+  <millis>1523883920758</millis>
+  <sequence>31</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>40</thread>
+  <message>Dodan fajl ID osluskivaca: 22</message>
+</record>
+<record>
+  <date>2018-04-16T15:05:20</date>
+  <millis>1523883920952</millis>
+  <sequence>32</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>41</thread>
+  <message>Dodan fajl ID osluskivaca: 23</message>
+</record>
+<record>
+  <date>2018-04-16T15:05:20</date>
+  <millis>1523883920953</millis>
+  <sequence>33</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Dodan fajl ID osluskivaca: 21</message>
+</record>
+<record>
+  <date>2018-04-16T15:05:20</date>
+  <millis>1523883920955</millis>
+  <sequence>34</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>38</thread>
+  <message>Dodan fajl ID osluskivaca: 20</message>
+</record>
+<record>
+  <date>2018-04-16T15:05:20</date>
+  <millis>1523883920957</millis>
+  <sequence>35</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>42</thread>
+  <message>Dodan fajl ID osluskivaca: 24</message>
+</record>

@@ -1,0 +1,12 @@
+Kupac: a
+Datum: 2018-04-04
+
+	       Racun
+
+Proizvod - kolicina - cijena - ukupno
+a  -  5  -  5.0  -  25.0
+
+---------------------------------------
+Ukupno: 25.0
+PDV: 4.25
+Ukupno za placanje: 29.25 

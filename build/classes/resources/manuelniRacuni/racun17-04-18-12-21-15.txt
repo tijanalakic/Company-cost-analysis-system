@@ -1,0 +1,18 @@
+PJ2 Market Banja Luka
+Poslovnica: poslovnica
+
+	Maloprodajni racun
+
+Kupac: kupac
+
+Proizvod - kolicina - cijena - ukupno
+---------------------------------------
+proizvod  -  7  -  78.0  -  546.0
+malina  -  7  -  85.0  -  595.0
+
+---------------------------------------
+
+Ukupno: 1141.0
+PDV: 193.97000000000003
+Ukupno za placanje: 1334.97
+Datum: 2018-04-03

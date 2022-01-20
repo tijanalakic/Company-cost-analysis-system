@@ -1,0 +1,18 @@
+PJ2 Market Banja Luka
+Poslovnica: london
+Kupac: tijana
+Datum: 2018-04-05
+
+	Maloprodajni racun
+
+Proizvod  Kolicina  Cijena  Ukupno
+----------------------------------
+kruska======34======5.0======170.0
+kabriolet======2======50000.0======100000.0
+
+----------------------------------
+
+Ukupno: 100170.0		PDV: 17028.9
+
+Ukupno za placanje: 117198.9
+

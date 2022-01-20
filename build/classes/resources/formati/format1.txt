@@ -1,0 +1,11 @@
+Kupac: $kupac
+Datum: $datum
+
+	       Racun
+
+Proizvod - kolicina - cijena - ukupno
+$proizvodi
+---------------------------------------
+Ukupno: $ukupno
+PDV: $pdv
+Ukupno za placanje: $total 

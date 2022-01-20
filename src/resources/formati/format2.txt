@@ -1,0 +1,16 @@
+PJ2 Market Banja Luka
+Poslovnica: $poslovnica
+
+	Maloprodajni racun
+
+Kupac: $kupac
+
+Proizvod - kolicina - cijena - ukupno
+---------------------------------------
+$proizvodi
+---------------------------------------
+
+Ukupno: $ukupno
+PDV: $pdv
+Ukupno za placanje: $total
+Datum: $datum

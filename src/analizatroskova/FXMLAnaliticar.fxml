@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="611.0" prefWidth="794.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="analizatroskova.FXMLAnaliticarController">
+   <children>
+      <TabPane layoutX="-106.0" prefHeight="400.0" prefWidth="706.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+          <Tab text="Izrada racuna">
+               <content>
+                  <SplitPane dividerPositions="0.38519637462235645" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <SplitPane dividerPositions="0.3584048460373549" layoutX="64.0" layoutY="30.0" prefHeight="262.4" prefWidth="743.2" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <items>
+                                  <AnchorPane>
+                                       <children>
+                                          <DatePicker fx:id="datePickerDatumRacuna" layoutX="50.0" layoutY="175.0" prefHeight="30.0" prefWidth="190.0" promptText="Datum" />
+                                          <ComboBox fx:id="comboBoxFormat" editable="true" layoutX="50.0" layoutY="25.0" prefHeight="30.0" prefWidth="190.0" promptText="Izbor formata" />
+                                          <TextField fx:id="txtPoslovnica" layoutX="50.0" layoutY="125.0" prefHeight="30.0" prefWidth="190.0" promptText="Poslovnica" />
+                                          <TextField fx:id="txtKupac" layoutX="50.0" layoutY="75.0" prefHeight="30.0" prefWidth="190.0" promptText="Kupac" />
+                                       </children>
+                                    </AnchorPane>
+                                  <AnchorPane>
+                                       <children>
+                                          <TextField fx:id="txtNazivProizvoda" layoutX="70.0" layoutY="25.0" prefHeight="30.0" prefWidth="190.0" promptText="Naziv proizvoda" />
+                                          <TextField fx:id="txtKolicina" layoutX="70.0" layoutY="75.0" prefHeight="30.0" prefWidth="190.0" promptText="Kolicina" />
+                                          <TextField fx:id="txtCijena" layoutX="70.0" layoutY="125.0" prefHeight="30.0" prefWidth="190.0" promptText="Cijena" />
+                                          <Button fx:id="btnDodajStavku" layoutX="50.0" layoutY="175.0" mnemonicParsing="false" onAction="#handleBtnDodajStavkuOnAction" prefHeight="30.0" prefWidth="190.0" text="Dodaj stavku" />
+                                          <Button fx:id="btnUkloniStavku" layoutX="280.0" layoutY="175.0" mnemonicParsing="false" onAction="#handleBtnUkloniStavkuOnAction" prefHeight="30.0" prefWidth="190.0" text="Ukoni stavku" />
+                                       </children>
+                                    </AnchorPane>
+                                </items>
+                              </SplitPane>
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <TableView fx:id="tableViewStavke" layoutX="4.0" layoutY="3.0" prefHeight="254.0" prefWidth="786.0">
+                                <columns>
+                                  <TableColumn fx:id="tableColumnNazivProizvoda" prefWidth="188.00000286102295" text="Naziv proizvoda" />
+                                  <TableColumn fx:id="tableColumnKolicina" prefWidth="171.1999969482422" text="Kolicina" />
+                                    <TableColumn fx:id="tableColumnCijena" prefWidth="198.4000244140625" text="Cijena" />
+                                    <TableColumn fx:id="tableColumnUkupno" prefWidth="228.0" text="Ukupno" />
+                                </columns>
+                              </TableView>
+                              <Label layoutX="580.0" layoutY="290.0" text=" Ukupno za uplatu">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font></Label>
+                              <Button fx:id="btnSacuvajRacun" layoutX="30.0" layoutY="280.0" mnemonicParsing="false" onAction="#handleBtnSacuvajRacunOnAction" prefHeight="30.0" prefWidth="190.0" text="Sacuvaj racun" />
+                              <Label fx:id="lblUkupnoZaUplatu" layoutX="710.0" layoutY="290.0" text="0.00" />
+                              <Label layoutX="280.0" layoutY="290.0" prefHeight="18.0" prefWidth="50.0" text="Ukupno">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font></Label>
+                              <Label layoutX="430.0" layoutY="290.0" prefHeight="19.0" prefWidth="74.0" text="Iznos PDVa">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font></Label>
+                              <Label fx:id="lblVrijednostPDV" layoutX="510.0" layoutY="290.0" text="0.00" />
+                              <Label fx:id="lblUkupnoRacun" layoutX="350.0" layoutY="290.0" text="0.00">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font></Label>
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </content>
+          </Tab>
+          <Tab text="Izvoz podataka">
+               <content>
+                  <SplitPane prefHeight="582.0" prefWidth="680.0">
+                    <items>
+                      <AnchorPane prefHeight="542.0" prefWidth="697.0">
+                           <children>
+                              <ComboBox fx:id="comboBoxIzborTipaPodataka" layoutX="50.0" layoutY="50.0" onAction="#handleIzborPodatakaOnAction" prefHeight="30.0" prefWidth="190.0" promptText="Izbor tipa podataka" />
+                              <Button fx:id="btnIzradiCsv" layoutX="50.0" layoutY="280.0" mnemonicParsing="false" onAction="#btnIzradiCsvOnAction" prefHeight="30.0" prefWidth="190.0" text="Izvezi u CSV formatu" />
+                              <TextField fx:id="txtIzborKupca" layoutX="50.0" layoutY="120.0" prefHeight="30.0" prefWidth="190.0" promptText="Naziv kupca" />
+                              <TextField fx:id="txtProizvod" layoutX="50.0" layoutY="120.0" prefHeight="30.0" prefWidth="190.0" promptText="Naziv proizvoda" />
+                              <ComboBox fx:id="comboBoxIzborMjeseca" layoutX="50.0" layoutY="120.0" prefHeight="30.0" prefWidth="190.0" promptText="Mjesec" />
+                              <ComboBox fx:id="comboBoxGodina" layoutX="50.0" layoutY="190.0" prefHeight="30.0" prefWidth="190.0" promptText="Godina" />
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

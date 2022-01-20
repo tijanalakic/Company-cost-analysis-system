@@ -1,0 +1,1201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-04-16T16:04:59</date>
+  <millis>1523887499726</millis>
+  <sequence>18</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>32</thread>
+  <message>Dodan fajl ID osluskivaca: 14</message>
+</record>
+<record>
+  <date>2018-04-16T16:04:59</date>
+  <millis>1523887499727</millis>
+  <sequence>21</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>35</thread>
+  <message>Dodan fajl ID osluskivaca: 17</message>
+</record>
+<record>
+  <date>2018-04-16T16:04:59</date>
+  <millis>1523887499727</millis>
+  <sequence>22</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>30</thread>
+  <message>Dodan fajl ID osluskivaca: 12</message>
+</record>
+<record>
+  <date>2018-04-16T16:04:59</date>
+  <millis>1523887499727</millis>
+  <sequence>19</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>33</thread>
+  <message>Dodan fajl ID osluskivaca: 15</message>
+</record>
+<record>
+  <date>2018-04-16T16:04:59</date>
+  <millis>1523887499727</millis>
+  <sequence>20</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>34</thread>
+  <message>Dodan fajl ID osluskivaca: 16</message>
+</record>
+<record>
+  <date>2018-04-16T16:04:59</date>
+  <millis>1523887499758</millis>
+  <sequence>24</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>31</thread>
+  <message>Dodan fajl ID osluskivaca: 13</message>
+</record>
+<record>
+  <date>2018-04-16T16:04:59</date>
+  <millis>1523887499730</millis>
+  <sequence>23</sequence>
+  <logger>service.RacunService</logger>
+  <level>SEVERE</level>
+  <class>service.RacunService</class>
+  <method>modulZaUvozPodataka</method>
+  <thread>32</thread>
+  <exception>
+    <message>java.io.FileNotFoundException: src\resources\vegas\format4.txt (The process cannot access the file because it is being used by another process)</message>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open0</method>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open</method>
+      <line>195</line>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>138</line>
+    </frame>
+    <frame>
+      <class>java.io.FileReader</class>
+      <method>&lt;init&gt;</method>
+      <line>72</line>
+    </frame>
+    <frame>
+      <class>service.RacunService</class>
+      <method>modulZaUvozPodataka</method>
+      <line>47</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>importData</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>run</method>
+      <line>51</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2018-04-16T16:04:59</date>
+  <millis>1523887499810</millis>
+  <sequence>25</sequence>
+  <logger>service.RacunService</logger>
+  <level>SEVERE</level>
+  <class>service.RacunService</class>
+  <method>modulZaUvozPodataka</method>
+  <thread>31</thread>
+  <exception>
+    <message>java.io.FileNotFoundException: src\resources\vegas\format4.txt (The process cannot access the file because it is being used by another process)</message>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open0</method>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open</method>
+      <line>195</line>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>138</line>
+    </frame>
+    <frame>
+      <class>java.io.FileReader</class>
+      <method>&lt;init&gt;</method>
+      <line>72</line>
+    </frame>
+    <frame>
+      <class>service.RacunService</class>
+      <method>modulZaUvozPodataka</method>
+      <line>47</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>importData</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>run</method>
+      <line>51</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2018-04-16T16:04:59</date>
+  <millis>1523887499814</millis>
+  <sequence>26</sequence>
+  <logger>service.RacunService</logger>
+  <level>SEVERE</level>
+  <class>service.RacunService</class>
+  <method>modulZaUvozPodataka</method>
+  <thread>34</thread>
+  <exception>
+    <message>java.io.FileNotFoundException: src\resources\vegas\format4.txt (The process cannot access the file because it is being used by another process)</message>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open0</method>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open</method>
+      <line>195</line>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>138</line>
+    </frame>
+    <frame>
+      <class>java.io.FileReader</class>
+      <method>&lt;init&gt;</method>
+      <line>72</line>
+    </frame>
+    <frame>
+      <class>service.RacunService</class>
+      <method>modulZaUvozPodataka</method>
+      <line>47</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>importData</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>run</method>
+      <line>51</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2018-04-16T16:04:59</date>
+  <millis>1523887499818</millis>
+  <sequence>27</sequence>
+  <logger>service.RacunService</logger>
+  <level>SEVERE</level>
+  <class>service.RacunService</class>
+  <method>modulZaUvozPodataka</method>
+  <thread>33</thread>
+  <exception>
+    <message>java.io.FileNotFoundException: src\resources\vegas\format4.txt (The process cannot access the file because it is being used by another process)</message>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open0</method>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open</method>
+      <line>195</line>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>138</line>
+    </frame>
+    <frame>
+      <class>java.io.FileReader</class>
+      <method>&lt;init&gt;</method>
+      <line>72</line>
+    </frame>
+    <frame>
+      <class>service.RacunService</class>
+      <method>modulZaUvozPodataka</method>
+      <line>47</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>importData</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>run</method>
+      <line>51</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2018-04-16T16:04:59</date>
+  <millis>1523887499825</millis>
+  <sequence>28</sequence>
+  <logger>service.RacunService</logger>
+  <level>SEVERE</level>
+  <class>service.RacunService</class>
+  <method>modulZaUvozPodataka</method>
+  <thread>30</thread>
+  <exception>
+    <message>java.io.FileNotFoundException: src\resources\vegas\format4.txt (The process cannot access the file because it is being used by another process)</message>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open0</method>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open</method>
+      <line>195</line>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>138</line>
+    </frame>
+    <frame>
+      <class>java.io.FileReader</class>
+      <method>&lt;init&gt;</method>
+      <line>72</line>
+    </frame>
+    <frame>
+      <class>service.RacunService</class>
+      <method>modulZaUvozPodataka</method>
+      <line>47</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>importData</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>run</method>
+      <line>51</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2018-04-16T16:04:59</date>
+  <millis>1523887499828</millis>
+  <sequence>29</sequence>
+  <logger>service.RacunService</logger>
+  <level>SEVERE</level>
+  <class>service.RacunService</class>
+  <method>modulZaUvozPodataka</method>
+  <thread>35</thread>
+  <exception>
+    <message>java.io.FileNotFoundException: src\resources\vegas\format4.txt (The process cannot access the file because it is being used by another process)</message>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open0</method>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open</method>
+      <line>195</line>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>138</line>
+    </frame>
+    <frame>
+      <class>java.io.FileReader</class>
+      <method>&lt;init&gt;</method>
+      <line>72</line>
+    </frame>
+    <frame>
+      <class>service.RacunService</class>
+      <method>modulZaUvozPodataka</method>
+      <line>47</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>importData</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>run</method>
+      <line>51</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2018-04-16T16:06:23</date>
+  <millis>1523887583021</millis>
+  <sequence>30</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>31</thread>
+  <message>Obrisan fajl ID osluskivaca: 13</message>
+</record>
+<record>
+  <date>2018-04-16T16:06:23</date>
+  <millis>1523887583050</millis>
+  <sequence>35</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>33</thread>
+  <message>Obrisan fajl ID osluskivaca: 15</message>
+</record>
+<record>
+  <date>2018-04-16T16:06:23</date>
+  <millis>1523887583050</millis>
+  <sequence>34</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>35</thread>
+  <message>Obrisan fajl ID osluskivaca: 17</message>
+</record>
+<record>
+  <date>2018-04-16T16:06:23</date>
+  <millis>1523887583044</millis>
+  <sequence>33</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>30</thread>
+  <message>Obrisan fajl ID osluskivaca: 12</message>
+</record>
+<record>
+  <date>2018-04-16T16:06:23</date>
+  <millis>1523887583037</millis>
+  <sequence>32</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>34</thread>
+  <message>Obrisan fajl ID osluskivaca: 16</message>
+</record>
+<record>
+  <date>2018-04-16T16:06:23</date>
+  <millis>1523887583025</millis>
+  <sequence>31</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>32</thread>
+  <message>Obrisan fajl ID osluskivaca: 14</message>
+</record>
+<record>
+  <date>2018-04-16T16:06:33</date>
+  <millis>1523887593889</millis>
+  <sequence>36</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>32</thread>
+  <message>Dodan fajl ID osluskivaca: 14</message>
+</record>
+<record>
+  <date>2018-04-16T16:06:33</date>
+  <millis>1523887593891</millis>
+  <sequence>37</sequence>
+  <logger>service.RacunService</logger>
+  <level>SEVERE</level>
+  <class>service.RacunService</class>
+  <method>modulZaUvozPodataka</method>
+  <thread>32</thread>
+  <exception>
+    <message>java.io.FileNotFoundException: src\resources\vegas\format4.txt (The process cannot access the file because it is being used by another process)</message>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open0</method>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open</method>
+      <line>195</line>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>138</line>
+    </frame>
+    <frame>
+      <class>java.io.FileReader</class>
+      <method>&lt;init&gt;</method>
+      <line>72</line>
+    </frame>
+    <frame>
+      <class>service.RacunService</class>
+      <method>modulZaUvozPodataka</method>
+      <line>47</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>importData</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>run</method>
+      <line>51</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2018-04-16T16:06:33</date>
+  <millis>1523887593905</millis>
+  <sequence>38</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>33</thread>
+  <message>Dodan fajl ID osluskivaca: 15</message>
+</record>
+<record>
+  <date>2018-04-16T16:06:33</date>
+  <millis>1523887593915</millis>
+  <sequence>39</sequence>
+  <logger>service.RacunService</logger>
+  <level>SEVERE</level>
+  <class>service.RacunService</class>
+  <method>modulZaUvozPodataka</method>
+  <thread>33</thread>
+  <exception>
+    <message>java.io.FileNotFoundException: src\resources\vegas\format4.txt (The process cannot access the file because it is being used by another process)</message>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open0</method>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open</method>
+      <line>195</line>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>138</line>
+    </frame>
+    <frame>
+      <class>java.io.FileReader</class>
+      <method>&lt;init&gt;</method>
+      <line>72</line>
+    </frame>
+    <frame>
+      <class>service.RacunService</class>
+      <method>modulZaUvozPodataka</method>
+      <line>47</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>importData</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>run</method>
+      <line>51</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2018-04-16T16:06:33</date>
+  <millis>1523887593916</millis>
+  <sequence>40</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>35</thread>
+  <message>Dodan fajl ID osluskivaca: 17</message>
+</record>
+<record>
+  <date>2018-04-16T16:06:33</date>
+  <millis>1523887593917</millis>
+  <sequence>41</sequence>
+  <logger>service.RacunService</logger>
+  <level>SEVERE</level>
+  <class>service.RacunService</class>
+  <method>modulZaUvozPodataka</method>
+  <thread>35</thread>
+  <exception>
+    <message>java.io.FileNotFoundException: src\resources\vegas\format4.txt (The process cannot access the file because it is being used by another process)</message>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open0</method>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open</method>
+      <line>195</line>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>138</line>
+    </frame>
+    <frame>
+      <class>java.io.FileReader</class>
+      <method>&lt;init&gt;</method>
+      <line>72</line>
+    </frame>
+    <frame>
+      <class>service.RacunService</class>
+      <method>modulZaUvozPodataka</method>
+      <line>47</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>importData</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>run</method>
+      <line>51</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2018-04-16T16:06:33</date>
+  <millis>1523887593920</millis>
+  <sequence>42</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>30</thread>
+  <message>Dodan fajl ID osluskivaca: 12</message>
+</record>
+<record>
+  <date>2018-04-16T16:06:33</date>
+  <millis>1523887593922</millis>
+  <sequence>43</sequence>
+  <logger>service.RacunService</logger>
+  <level>SEVERE</level>
+  <class>service.RacunService</class>
+  <method>modulZaUvozPodataka</method>
+  <thread>30</thread>
+  <exception>
+    <message>java.io.FileNotFoundException: src\resources\vegas\format4.txt (The process cannot access the file because it is being used by another process)</message>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open0</method>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open</method>
+      <line>195</line>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>138</line>
+    </frame>
+    <frame>
+      <class>java.io.FileReader</class>
+      <method>&lt;init&gt;</method>
+      <line>72</line>
+    </frame>
+    <frame>
+      <class>service.RacunService</class>
+      <method>modulZaUvozPodataka</method>
+      <line>47</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>importData</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>run</method>
+      <line>51</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2018-04-16T16:06:33</date>
+  <millis>1523887593932</millis>
+  <sequence>44</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>31</thread>
+  <message>Dodan fajl ID osluskivaca: 13</message>
+</record>
+<record>
+  <date>2018-04-16T16:06:33</date>
+  <millis>1523887593934</millis>
+  <sequence>45</sequence>
+  <logger>service.RacunService</logger>
+  <level>SEVERE</level>
+  <class>service.RacunService</class>
+  <method>modulZaUvozPodataka</method>
+  <thread>31</thread>
+  <exception>
+    <message>java.io.FileNotFoundException: src\resources\vegas\format4.txt (The process cannot access the file because it is being used by another process)</message>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open0</method>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open</method>
+      <line>195</line>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>138</line>
+    </frame>
+    <frame>
+      <class>java.io.FileReader</class>
+      <method>&lt;init&gt;</method>
+      <line>72</line>
+    </frame>
+    <frame>
+      <class>service.RacunService</class>
+      <method>modulZaUvozPodataka</method>
+      <line>47</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>importData</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>run</method>
+      <line>51</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2018-04-16T16:06:33</date>
+  <millis>1523887593940</millis>
+  <sequence>46</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>34</thread>
+  <message>Dodan fajl ID osluskivaca: 16</message>
+</record>
+<record>
+  <date>2018-04-16T16:06:33</date>
+  <millis>1523887593943</millis>
+  <sequence>47</sequence>
+  <logger>service.RacunService</logger>
+  <level>SEVERE</level>
+  <class>service.RacunService</class>
+  <method>modulZaUvozPodataka</method>
+  <thread>34</thread>
+  <exception>
+    <message>java.io.FileNotFoundException: src\resources\vegas\format4.txt (The process cannot access the file because it is being used by another process)</message>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open0</method>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open</method>
+      <line>195</line>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>138</line>
+    </frame>
+    <frame>
+      <class>java.io.FileReader</class>
+      <method>&lt;init&gt;</method>
+      <line>72</line>
+    </frame>
+    <frame>
+      <class>service.RacunService</class>
+      <method>modulZaUvozPodataka</method>
+      <line>47</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>importData</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>run</method>
+      <line>51</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2018-04-16T16:06:56</date>
+  <millis>1523887616047</millis>
+  <sequence>49</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>31</thread>
+  <message>Obrisan fajl ID osluskivaca: 13</message>
+</record>
+<record>
+  <date>2018-04-16T16:06:56</date>
+  <millis>1523887616045</millis>
+  <sequence>48</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>32</thread>
+  <message>Obrisan fajl ID osluskivaca: 14</message>
+</record>
+<record>
+  <date>2018-04-16T16:06:56</date>
+  <millis>1523887616062</millis>
+  <sequence>50</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>Obrisan fajl ID osluskivaca: 18</message>
+</record>
+<record>
+  <date>2018-04-16T16:06:56</date>
+  <millis>1523887616064</millis>
+  <sequence>51</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>33</thread>
+  <message>Obrisan fajl ID osluskivaca: 15</message>
+</record>
+<record>
+  <date>2018-04-16T16:06:56</date>
+  <millis>1523887616102</millis>
+  <sequence>54</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>35</thread>
+  <message>Obrisan fajl ID osluskivaca: 17</message>
+</record>
+<record>
+  <date>2018-04-16T16:06:56</date>
+  <millis>1523887616101</millis>
+  <sequence>53</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>30</thread>
+  <message>Obrisan fajl ID osluskivaca: 12</message>
+</record>
+<record>
+  <date>2018-04-16T16:06:56</date>
+  <millis>1523887616101</millis>
+  <sequence>52</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>34</thread>
+  <message>Obrisan fajl ID osluskivaca: 16</message>
+</record>
+<record>
+  <date>2018-04-16T16:07:00</date>
+  <millis>1523887620503</millis>
+  <sequence>57</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>30</thread>
+  <message>Dodan fajl ID osluskivaca: 12</message>
+</record>
+<record>
+  <date>2018-04-16T16:07:00</date>
+  <millis>1523887620504</millis>
+  <sequence>58</sequence>
+  <logger>service.RacunService</logger>
+  <level>SEVERE</level>
+  <class>service.RacunService</class>
+  <method>modulZaUvozPodataka</method>
+  <thread>30</thread>
+  <exception>
+    <message>java.io.FileNotFoundException: src\resources\vegas\format4.txt (The process cannot access the file because it is being used by another process)</message>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open0</method>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open</method>
+      <line>195</line>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>138</line>
+    </frame>
+    <frame>
+      <class>java.io.FileReader</class>
+      <method>&lt;init&gt;</method>
+      <line>72</line>
+    </frame>
+    <frame>
+      <class>service.RacunService</class>
+      <method>modulZaUvozPodataka</method>
+      <line>47</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>importData</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>run</method>
+      <line>51</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2018-04-16T16:07:00</date>
+  <millis>1523887620502</millis>
+  <sequence>55</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>35</thread>
+  <message>Dodan fajl ID osluskivaca: 17</message>
+</record>
+<record>
+  <date>2018-04-16T16:07:00</date>
+  <millis>1523887620502</millis>
+  <sequence>56</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>34</thread>
+  <message>Dodan fajl ID osluskivaca: 16</message>
+</record>
+<record>
+  <date>2018-04-16T16:07:00</date>
+  <millis>1523887620506</millis>
+  <sequence>59</sequence>
+  <logger>service.RacunService</logger>
+  <level>SEVERE</level>
+  <class>service.RacunService</class>
+  <method>modulZaUvozPodataka</method>
+  <thread>35</thread>
+  <exception>
+    <message>java.io.FileNotFoundException: src\resources\vegas\format4.txt (The process cannot access the file because it is being used by another process)</message>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open0</method>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open</method>
+      <line>195</line>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>138</line>
+    </frame>
+    <frame>
+      <class>java.io.FileReader</class>
+      <method>&lt;init&gt;</method>
+      <line>72</line>
+    </frame>
+    <frame>
+      <class>service.RacunService</class>
+      <method>modulZaUvozPodataka</method>
+      <line>47</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>importData</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>run</method>
+      <line>51</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2018-04-16T16:07:00</date>
+  <millis>1523887620507</millis>
+  <sequence>60</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>31</thread>
+  <message>Dodan fajl ID osluskivaca: 13</message>
+</record>
+<record>
+  <date>2018-04-16T16:07:00</date>
+  <millis>1523887620508</millis>
+  <sequence>61</sequence>
+  <logger>service.RacunService</logger>
+  <level>SEVERE</level>
+  <class>service.RacunService</class>
+  <method>modulZaUvozPodataka</method>
+  <thread>31</thread>
+  <exception>
+    <message>java.io.FileNotFoundException: src\resources\vegas\format4.txt (The process cannot access the file because it is being used by another process)</message>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open0</method>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open</method>
+      <line>195</line>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>138</line>
+    </frame>
+    <frame>
+      <class>java.io.FileReader</class>
+      <method>&lt;init&gt;</method>
+      <line>72</line>
+    </frame>
+    <frame>
+      <class>service.RacunService</class>
+      <method>modulZaUvozPodataka</method>
+      <line>47</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>importData</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>run</method>
+      <line>51</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2018-04-16T16:07:00</date>
+  <millis>1523887620510</millis>
+  <sequence>62</sequence>
+  <logger>service.RacunService</logger>
+  <level>SEVERE</level>
+  <class>service.RacunService</class>
+  <method>modulZaUvozPodataka</method>
+  <thread>34</thread>
+  <exception>
+    <message>java.io.FileNotFoundException: src\resources\vegas\format4.txt (The process cannot access the file because it is being used by another process)</message>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open0</method>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open</method>
+      <line>195</line>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>138</line>
+    </frame>
+    <frame>
+      <class>java.io.FileReader</class>
+      <method>&lt;init&gt;</method>
+      <line>72</line>
+    </frame>
+    <frame>
+      <class>service.RacunService</class>
+      <method>modulZaUvozPodataka</method>
+      <line>47</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>importData</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>run</method>
+      <line>51</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2018-04-16T16:07:00</date>
+  <millis>1523887620525</millis>
+  <sequence>63</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>32</thread>
+  <message>Dodan fajl ID osluskivaca: 14</message>
+</record>
+<record>
+  <date>2018-04-16T16:07:00</date>
+  <millis>1523887620525</millis>
+  <sequence>64</sequence>
+  <logger>service.RacunService</logger>
+  <level>SEVERE</level>
+  <class>service.RacunService</class>
+  <method>modulZaUvozPodataka</method>
+  <thread>32</thread>
+  <exception>
+    <message>java.io.FileNotFoundException: src\resources\vegas\format4.txt (The process cannot access the file because it is being used by another process)</message>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open0</method>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open</method>
+      <line>195</line>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>138</line>
+    </frame>
+    <frame>
+      <class>java.io.FileReader</class>
+      <method>&lt;init&gt;</method>
+      <line>72</line>
+    </frame>
+    <frame>
+      <class>service.RacunService</class>
+      <method>modulZaUvozPodataka</method>
+      <line>47</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>importData</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>run</method>
+      <line>51</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2018-04-16T16:07:00</date>
+  <millis>1523887620529</millis>
+  <sequence>65</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>33</thread>
+  <message>Dodan fajl ID osluskivaca: 15</message>
+</record>
+<record>
+  <date>2018-04-16T16:07:00</date>
+  <millis>1523887620530</millis>
+  <sequence>66</sequence>
+  <logger>service.RacunService</logger>
+  <level>SEVERE</level>
+  <class>service.RacunService</class>
+  <method>modulZaUvozPodataka</method>
+  <thread>33</thread>
+  <exception>
+    <message>java.io.FileNotFoundException: src\resources\vegas\format4.txt (The process cannot access the file because it is being used by another process)</message>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open0</method>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open</method>
+      <line>195</line>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>138</line>
+    </frame>
+    <frame>
+      <class>java.io.FileReader</class>
+      <method>&lt;init&gt;</method>
+      <line>72</line>
+    </frame>
+    <frame>
+      <class>service.RacunService</class>
+      <method>modulZaUvozPodataka</method>
+      <line>47</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>importData</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>listeners.Listener</class>
+      <method>run</method>
+      <line>51</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2018-04-16T16:07:00</date>
+  <millis>1523887620571</millis>
+  <sequence>67</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>Dodan fajl ID osluskivaca: 18</message>
+</record>

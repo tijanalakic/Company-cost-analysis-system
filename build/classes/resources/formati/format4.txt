@@ -1,0 +1,15 @@
+Kupac: $kupac
+Datum: $datum
+		
+	      Java Market
+
+Proizvod - kolicina - cijena - ukupno
+---------------------------------------
+$proizvodi
+---------------------------------------
+Ukupno: $ukupno
+PDV: $pdv
+=======================================
+Ukupno za placanje: $total
+
+=======================================

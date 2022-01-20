@@ -1,0 +1,13 @@
+Kupac: kk
+Datum: 2018-04-19
+
+	       Racun
+
+Proizvod - kolicina - cijena - ukupno
+pr  -  45  -  78.0  -  3510.0
+ll  -  7  -  2.3  -  16.099999999999998
+
+---------------------------------------
+Ukupno: 3526.1
+PDV: 599.437
+Ukupno za placanje: 4125.537 

@@ -1,0 +1,14 @@
+Kupac: Miki
+Datum: 2018-04-05
+
+	       Racun
+
+Proizvod - kolicina - cijena - ukupno
+proizvod   -  2  -  36.0  -  72.0
+Predmet  -  6  -  33.33  -  199.98
+abc 123  -  6  -  9.0  -  54.0
+
+---------------------------------------
+Ukupno: 325.98
+PDV: 55.41660000000001
+Ukupno za placanje: 381.39660000000003 
